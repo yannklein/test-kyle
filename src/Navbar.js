@@ -3,7 +3,8 @@ import React from "react"
 export default function Navbar() {
     return (
         <nav>
-            <img src="./airbnb-logo.png" className="nav--logo" alt="logo" />
+            <img src="./icon.png" className="nav--icon" alt="icon" />
+            <h3>my travel journal.</h3>
         </nav>
     )
 }
