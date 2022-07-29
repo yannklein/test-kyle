@@ -1,10 +1,14 @@
-import React from "react"
+import React from "react";
 
 export default function Navbar() {
-    return (
-        <nav>
-            <img src="./icon.png" className="nav--icon" alt="icon" />
-            <h3>my travel journal.</h3>
-        </nav>
-    )
+  return (
+    <nav className="nav-wrap">
+      <img
+        src="https://img.icons8.com/external-rabit-jes-detailed-outline-rabit-jes/62/undefined/external-world-navigation-and-maps-rabit-jes-detailed-outline-rabit-jes-2.png"
+        className="nav-img"
+        alt="navimage"
+      />
+      <h1 className="nav-title">my travel journal.</h1>
+    </nav>
+  );
 }
