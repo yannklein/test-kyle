@@ -10,7 +10,7 @@ export default [
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
   },
   {
-    title: "Sidney Opera House",
+    title: "Sydney Opera House",
     location: "Australia",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
     startDate: "27 May, 2021",
