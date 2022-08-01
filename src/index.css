@@ -24,7 +24,7 @@ main {
 }
 
 .nav-title {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.07em;
   margin: 0 7px;
@@ -61,7 +61,7 @@ main {
 }
 
 .card-location {
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   width: 100%;
   align-items: center;
@@ -95,7 +95,7 @@ main {
   width: 100%;
   height: 40px;
   margin: 7px 0;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 700;
   white-space: pre;
 }
@@ -106,7 +106,7 @@ main {
 }
 
 .date span {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   margin-bottom: 7px;
 }
@@ -168,13 +168,14 @@ main {
 @media screen and (min-width: 1200px) {
   .card-body {
     width: 35vw;
-    height: 27vh;
+    height: 17vh;
   }
 
   .list-cards {
     display: grid;
     flex-flow: row wrap;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: space-evenly;
     justify-items: center;
